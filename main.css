@@ -1,0 +1,28 @@
+:root {     
+    --gradient:hsl(252, 100%, 67%);
+    --gradient2: hsl(241, 81%, 54%);
+}
+
+.caja_padre{
+    display: flex;  
+   margin: 30%;
+   
+}
+.cajas_1{
+  width: 300px; 
+   height: 250px;
+   background-color: var(--gradient);
+   border: solid 4px;
+   justify-content: center; 
+   border-radius: 25px;
+}
+
+.title {
+    text-align: center;
+    margin: 10px;
+}
+.medidas {
+    border-radius: 50px;
+    background-color: rgb(114, 15, 206);
+    text-align: center;
+}
